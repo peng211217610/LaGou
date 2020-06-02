@@ -8,22 +8,17 @@ remark = ''''''
 
 #引入相关包
 
-def func_with_parameter(a):
-    print(a)
-    return a
+def func1(name):
+    print(name)
+    return name
 
 
-def func_without_parameter():
-    print('nothing')
-
-
-
-
+def func2(name='Li'):
+    print(name)
 
 
 
 
 if __name__=="__main__":
-    func_with_parameter(5)
-    func_without_parameter()
-    pass
+    func1('Wong')
+    func2()

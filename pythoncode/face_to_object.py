@@ -34,6 +34,7 @@ class Cat(Animal):
 
     def huizhuolaoshu(self):
         print('zhuolaoshu')
+        return "catch the mouse successfully"
 
 
     def huijiao(self):
@@ -58,6 +59,11 @@ cat=Cat('xiaomao','black',5,'male')
 catchmouse=cat.huizhuolaoshu()
 print(cat.name,cat.color,cat.age,cat.sex,cat.hair,cat.huizhuolaoshu())
 
+
+#狗狗实例
+dog=Dog('xiaogou','red',2,'female')
+kanjia=dog.huikanjia()
+print(dog.name,dog.color,dog.age,dog.sex,dog.hair)
 
 
 
